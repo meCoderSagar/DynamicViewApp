@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <CheckBox
+        android:id="@+id/cbselect"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etprofile"
+        android:background="@drawable/round_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/job_profile"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_grey"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/experince"
+        android:inputType="textPersonName" />
+
+</LinearLayout>
